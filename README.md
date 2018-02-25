@@ -2,17 +2,17 @@
  NuRsE - A MATLAB(R) Package for Network REsilience
 ========================================================
 
-Version:    1.0
+Version:    2.0
 
 Home Page:  To be added later
 
-Authors:    Jianxi Gao               <j.gao@neu.edu>
+Authors:    Jianxi Gao               jianxi.gao@gmail.com
 
-            Sunday, Oct 26, 2015
+            Sunday, February 25, 2018
 
-$Id: README.txt 2015-10-26 17:38:58Z ray $
-%   by Jianxi Gao, Northeastern University, Boston
-%   Copyright (c) 2012-2015 by Center for Complex Network Research (CCNR)
+$Id: README.txt 2018-2-25 12:25:00 $
+%   by Jianxi Gao, RPI, Troy, NY
+%   Copyright (c) 2012-2018 by Center for Complex Network Research (CCNR)
 
 
 Copying and distribution of this file, with or without modification,
@@ -22,7 +22,7 @@ without any warranty.
 
 ------------------------------------------------------------------------
 When using this data, please cite the original publication:
-Jianxi Gao, Baruch Barzel,  Albert-Laszlo Barabasi, Resilience of Complex Networks, XXXX, XXX, 2015.
+Jianxi Gao, Baruch Barzel,  Albert-Laszlo Barabasi, Universal resilience patterns in complex networks, Nature, 530, pages 307–312, 2016.
 ------------------------------------------------------------------------
 
 
@@ -40,7 +40,7 @@ The folder Figure_syn_net ----> provides the data and code to produce
                          the figures of model networks in SI
 
 ------------------------------------------------------------------------
-About simulation code : NuRsEv1.0 
+About simulation code : NuRsEv2.0 
 ------------------------------------------------------------------------
 
 The folder Simulation_real ----> provides simulation code to study the 
