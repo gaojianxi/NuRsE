@@ -35,13 +35,6 @@ options = [];
 [t,x] = ode45(@R_system,[t0,tf],x0,options,A);
 y1 = x(end,:);y1 = y1';
 
-% Remove the strong components has dead
-zeroy1 = find(y1 < 1.1);
-if length(zeroy1) < n
-    y1(zeroy1) = [];
-    A(zeroy1,:) = [];
-    A(:,zeroy1) = [];
-end
 
 output_one(steps,1) = mean(y1);
 
