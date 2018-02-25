@@ -40,6 +40,7 @@ load('../R_real_data/TECB');
 a = 2; 
 A = sparse(A*a); 
 A = delete_no_input(A);
+A = delete_no_output(A);
 cluster = find_components(A);
 A = A(cluster,cluster); 
 nnlros = 1;
@@ -47,8 +48,8 @@ num_reali = 500;
 for realization = 1:num_reali 
     perturbation_type = 1; 
     output_one = Perturpation_real_R(nnlros,A,perturbation_type)
-    [nn,mm] = size(output_one);
-    outputs(realization,1:nn,1:mm) = output_one;
+    [row,column] = size(output_one);
+    outputs(realization,1:row,1:column) = output_one;
     save file_name_the_results outputs
 end
 
